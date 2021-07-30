@@ -1,0 +1,32 @@
+{
+  "name": "backend-homework",
+  "version": "1.0.0",
+  "description": "backend-homework",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "N/A",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zocartes/backend-homework.git"
+  },
+  "keywords": [
+    "back",
+    "end",
+    "homework"
+  ],
+  "author": "Andres Molestina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zocartes/backend-homework/issues"
+  },
+  "homepage": "https://github.com/Zocartes/backend-homework#readme"
+}
