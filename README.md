@@ -30,7 +30,9 @@ npm i express, npm i sequelize, npm i mysql2, npm i dotenv
 
 ## Usage
 
-Using this application is simple. Once you have all the dependencies installed a user can add any Category Product or Tag to the database. Associations between the models already handled, so the user just needs to enter relevant information around the Products such as price, stock and Tags as well as Category and Tag names. Below is a link to a walkthrough video broken into three parts.
+Using this application is simple. Once you have all the dependencies installed a user can add any Category Product or Tag to the database. Associations between the models already handled, so the user just needs to enter relevant information around the Products such as price, stock and Tags as well as Category and Tag names. Below is a link to a walkthrough video broken into two parts.
+
+Part 1 [Instalation and DB Seed](https://youtu.be/z_u3lrv1Kgw)
 
 ## License
 
