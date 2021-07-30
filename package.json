@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "backend-homework",
   "main": "server.js",
+  
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -12,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "N/A",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
