@@ -11,24 +11,24 @@ Product.init(
   {
     // define columns
     id: {
-      type:DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
     product_name: {
-      type:DataTypes.String,
-      allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false
     },
     price: {
-      type:DataTypes.DECIMAL(10,2),
+      type: DataTypes.DECIMAL(10,2),
       allowNull: false,
       validate: {
         isDecimal: true
       }
     },
     stock: {
-      type:DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -36,7 +36,7 @@ Product.init(
       }
     },
     category_id: {
-      type:DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         onDelete: 'SET NULL',
         model: 'category',

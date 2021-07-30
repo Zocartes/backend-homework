@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', async(req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   try {
@@ -69,6 +69,7 @@ router.put('/:id', async (req, res) => {
   } catch (err) {
    res.status(500).json9err
   }
+
 });
 
 router.delete('/:id', async (req, res) => {
